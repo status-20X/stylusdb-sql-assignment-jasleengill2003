@@ -1,4 +1,4 @@
-const readCSV = require('../../src/csvReader');
+const readCSV = require('/Users/jasleengill/stylusdb-sql-assignment-jasleengill2003/src/csvReader.js');
 
 test('Read CSV File', async () => {
     const data = await readCSV('./sample.csv');
